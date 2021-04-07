@@ -17,7 +17,7 @@ public static void main(String[] args) throws Exception {
 	ObjectInputStream ois= new ObjectInputStream(fis);
 	System.out.println(d.i + "\t" + d.j);
 	System.out.println(r.l);
-	System.out.println(c.k + "\t" + c.j);
+	System.out.println(c.k );
 
 }
 }
