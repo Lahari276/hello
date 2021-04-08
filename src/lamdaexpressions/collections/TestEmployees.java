@@ -14,7 +14,10 @@ public class TestEmployees {
 		employees.add(new Employee("priya",1906));
 		
 		System.out.println(employees);
+		Comparator<Employee> c = (e1,e2)-> (e1.eid <e2.eid)? -1 : (e1.eid >e2.eid)? 1 : 0;
 		
+		Collections.sort(employees,c);
+		System.out.println(employees);
 	}
 
 }
