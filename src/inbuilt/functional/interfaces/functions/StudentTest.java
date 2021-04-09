@@ -17,7 +17,7 @@ public class StudentTest {
 			System.out.println(s.name + "\t" + f.apply(s));;
 		}
 		}
-	private static void populateStudents() {
+	public static ArrayList<StudentFunc> populateStudents() {
 		// TODO Auto-generated method stub
 		js = new ArrayList<StudentFunc>();
 		js.add(new StudentFunc("lahari",70));
@@ -25,6 +25,7 @@ public class StudentTest {
 		js.add(new StudentFunc("hyma",75));
 		js.add(new StudentFunc("srujan",80));
 		js.add(new StudentFunc("chinnu",95));
+		return js;
 
 	}
 }
