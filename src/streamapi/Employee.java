@@ -15,7 +15,7 @@ public class Employee {
 		@Override
 		public String toString() {
 			// TODO Auto-generated method stub
-			return this.name + "\t"+ this.salary;
+			return this.name + ":"+ this.salary;
 					//super.toString();
 		}
 
